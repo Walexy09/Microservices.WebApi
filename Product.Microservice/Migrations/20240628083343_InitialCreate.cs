@@ -28,12 +28,12 @@ namespace Product.Microservice.Migrations
             migrationBuilder.InsertData(
                 table: "Products",
                 columns: new[] { "Id", "Category", "Description", "Name", "Price", "StockQuantity" },
-                values: new object[] { new Guid("0ce88e1a-61b3-4863-931a-1aac8dd16fc5"), "Category 1", "This is a solid soled shoe", "Solid Shoes", 10.99m, 100 });
+                values: new object[] { new Guid("25d1d4b0-1d0e-459e-9ae7-9b196a0a4e57"), "Category 1", "This is a solid soled shoe", "Solid Shoes", 10.99m, 100 });
 
             migrationBuilder.InsertData(
                 table: "Products",
                 columns: new[] { "Id", "Category", "Description", "Name", "Price", "StockQuantity" },
-                values: new object[] { new Guid("a2d9adb7-b3fa-456b-bcaa-2d3daed8d3ff"), "Category 2", "Black Gucci bag for ladies", "Black Bag", 19.99m, 200 });
+                values: new object[] { new Guid("afc4468e-2a9d-4e0a-b208-5c71dc21d7ba"), "Category 2", "Black Gucci bag for ladies", "Black Bag", 19.99m, 200 });
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)

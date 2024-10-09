@@ -32,12 +32,12 @@ namespace Customer.Microservice.Migrations
             migrationBuilder.InsertData(
                 table: "Customers",
                 columns: new[] { "Id", "Address", "City", "DateOfBirth", "Email", "FirstName", "LastName", "PhoneNumber", "State", "ZipCode" },
-                values: new object[] { new Guid("411ea2e9-3c8e-40ef-a8bc-aefe7566a1a0"), "123 Main St", "Anytown", new DateTime(1990, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "john.doe@example.com", "John", "Doe", "1234567890", "Anystate", "12345" });
+                values: new object[] { new Guid("0ad2d98b-8bea-4678-843c-f139d291014e"), "123 Main St", "Anytown", new DateTime(1990, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "john.doe@example.com", "John", "Doe", "1234567890", "Anystate", "12345" });
 
             migrationBuilder.InsertData(
                 table: "Customers",
                 columns: new[] { "Id", "Address", "City", "DateOfBirth", "Email", "FirstName", "LastName", "PhoneNumber", "State", "ZipCode" },
-                values: new object[] { new Guid("b08dcb61-bcff-40a3-96e0-5d2a4abbb5c0"), "456 Elm St", "Othertown", new DateTime(1985, 5, 15, 0, 0, 0, 0, DateTimeKind.Unspecified), "jane.smith@example.com", "Jane", "Smith", "0987654321", "Otherstate", "67890" });
+                values: new object[] { new Guid("5158b6f2-d96d-4af2-a138-56e3818c6b16"), "456 Elm St", "Othertown", new DateTime(1985, 5, 15, 0, 0, 0, 0, DateTimeKind.Unspecified), "jane.smith@example.com", "Jane", "Smith", "0987654321", "Otherstate", "67890" });
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)

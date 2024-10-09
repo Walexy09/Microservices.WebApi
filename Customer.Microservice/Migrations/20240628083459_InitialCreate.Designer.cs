@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Customer.Microservice.Migrations
 {
     [DbContext(typeof(CustomerContext))]
-    [Migration("20240626111253_InitialCreate")]
+    [Migration("20240628083459_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -64,7 +64,7 @@ namespace Customer.Microservice.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("411ea2e9-3c8e-40ef-a8bc-aefe7566a1a0"),
+                            Id = new Guid("0ad2d98b-8bea-4678-843c-f139d291014e"),
                             Address = "123 Main St",
                             City = "Anytown",
                             DateOfBirth = new DateTime(1990, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
@@ -77,7 +77,7 @@ namespace Customer.Microservice.Migrations
                         },
                         new
                         {
-                            Id = new Guid("b08dcb61-bcff-40a3-96e0-5d2a4abbb5c0"),
+                            Id = new Guid("5158b6f2-d96d-4af2-a138-56e3818c6b16"),
                             Address = "456 Elm St",
                             City = "Othertown",
                             DateOfBirth = new DateTime(1985, 5, 15, 0, 0, 0, 0, DateTimeKind.Unspecified),

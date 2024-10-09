@@ -12,7 +12,7 @@ using Product.Microservice.Data;
 namespace Product.Microservice.Migrations
 {
     [DbContext(typeof(ProductContext))]
-    [Migration("20240626111046_InitialCreate")]
+    [Migration("20240628083343_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -52,7 +52,7 @@ namespace Product.Microservice.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("0ce88e1a-61b3-4863-931a-1aac8dd16fc5"),
+                            Id = new Guid("25d1d4b0-1d0e-459e-9ae7-9b196a0a4e57"),
                             Category = "Category 1",
                             Description = "This is a solid soled shoe",
                             Name = "Solid Shoes",
@@ -61,7 +61,7 @@ namespace Product.Microservice.Migrations
                         },
                         new
                         {
-                            Id = new Guid("a2d9adb7-b3fa-456b-bcaa-2d3daed8d3ff"),
+                            Id = new Guid("afc4468e-2a9d-4e0a-b208-5c71dc21d7ba"),
                             Category = "Category 2",
                             Description = "Black Gucci bag for ladies",
                             Name = "Black Bag",

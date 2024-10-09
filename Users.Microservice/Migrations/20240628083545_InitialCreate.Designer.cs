@@ -12,7 +12,7 @@ using Users.Microservice.Data;
 namespace Users.Microservice.Migrations
 {
     [DbContext(typeof(UserContext))]
-    [Migration("20240626172224_InitialCreate")]
+    [Migration("20240628083545_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
